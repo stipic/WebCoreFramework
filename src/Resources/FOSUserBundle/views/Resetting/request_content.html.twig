@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    {{ parent() }}
+
+    <div class="signing">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h2>Reset your password</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="signing__modal">
+
+                        <form action="{{ path('fos_user_resetting_send_email') }}" method="POST">
+                            
+                            <div class="input-wrapper">
+                                <input type="text" name="username" class="input-wrapper__field" required/>
+                                <label class="label" for="username">Your Email</label>
+                            </div>
+
+                            <button type="submit" class="button button-blue login-button">Reset</button>
+                        
+                        </form>
+
+                        <div class="row signing__modal__info">
+                            <div class="column">
+                                <span class="signing__modal__info__account black-text">Don't have an account? <a href="{{ path('fos_user_registration_register') }}">Sign Up</a></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

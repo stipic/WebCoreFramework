@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="283" viewBox="0 0 456 283">
+    <defs>
+        <filter id="a" width="152.5%" height="146.9%" x="-26.2%" y="-19%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="b" width="152.7%" height="144.5%" x="-25%" y="-17.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="d" d="M6 0h140v182H6z"/>
+        <filter id="c" width="110%" height="107.7%" x="-5%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        </filter>
+        <filter id="e" width="152.7%" height="144.5%" x="-25%" y="-17.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="g" d="M6 0h140v182H6z"/>
+        <filter id="f" width="110%" height="107.7%" x="-5%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        </filter>
+        <filter id="h" width="152.7%" height="144.5%" x="-25%" y="-17.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="j" d="M6 0h140v182H6z"/>
+        <filter id="i" width="110%" height="107.7%" x="-5%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        </filter>
+        <filter id="k" width="152.7%" height="144.5%" x="-25%" y="-17.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="7" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="11"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <path id="m" d="M6 0h140v182H6z"/>
+        <filter id="l" width="110%" height="107.7%" x="-5%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g filter="url(#a)" transform="translate(16 39)">
+            <path fill="#FFF" d="M0 0h100.92v113H0z"/>
+            <text fill="#3F414F" font-family="Nunito-Bold, Nunito" font-size="50" font-weight="bold">
+                <tspan x="20.475" y="89">23</tspan>
+            </text>
+            <path fill="#317DE2" d="M0 0h101v32H0z"/>
+            <text fill="#FFF" font-family="Nunito-ExtraBold, Nunito" font-size="20" font-weight="600">
+                <tspan x="31.7" y="22">JAN</tspan>
+            </text>
+        </g>
+        <g filter="url(#b)" transform="translate(147 39)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="#1F5CAC" xlink:href="#d"/>
+            <path fill="#EBEBEB" d="M131 0h13v182h-13z"/>
+            <path fill="#FFF" d="M129 0h13v182h-13z"/>
+            <path fill="#317DE2" d="M0 0h140v24l6 4v23l-6 3v128H0z"/>
+            <text fill="#FFF" font-family="Nunito-ExtraBold, Nunito" font-size="14" font-weight="600">
+                <tspan x="14" y="29">Project </tspan> <tspan x="14" y="45.8">documentation</tspan>
+            </text>
+            <path fill="#FFF" d="M14 62h42v6H14zM14 73h27v6H14z" opacity=".5"/>
+        </g>
+        <g filter="url(#e)" transform="rotate(4 -81.544 3465.26)">
+            <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+            <use fill="#1F5CAC" xlink:href="#g"/>
+            <path fill="#EBEBEB" d="M131 0h13v182h-13z"/>
+            <path fill="#FFF" d="M129 0h13v182h-13z"/>
+            <path fill="#317DE2" d="M0 0h140v24l6 4v23l-6 3v128H0z"/>
+            <text fill="#FFF" font-family="Nunito-ExtraBold, Nunito" font-size="14" font-weight="600">
+                <tspan x="14" y="29">Project </tspan> <tspan x="14" y="45.8">documentation</tspan>
+            </text>
+            <path fill="#FFF" d="M14 62h42v6H14zM14 73h27v6H14z" opacity=".5"/>
+        </g>
+        <g filter="url(#h)" transform="rotate(15 -1.065 1136.475)">
+            <use fill="#000" filter="url(#i)" xlink:href="#j"/>
+            <use fill="#1F5CAC" xlink:href="#j"/>
+            <path fill="#EBEBEB" d="M131 0h13v182h-13z"/>
+            <path fill="#FFF" d="M129 0h13v182h-13z"/>
+            <path fill="#317DE2" d="M0 0h140v24l6 4v23l-6 3v128H0z"/>
+            <text fill="#FFF" font-family="Nunito-ExtraBold, Nunito" font-size="14" font-weight="600">
+                <tspan x="14" y="29">Project </tspan> <tspan x="14" y="45.8">documentation</tspan>
+            </text>
+            <path fill="#FFF" d="M14 62h42v6H14zM14 73h27v6H14z" opacity=".5"/>
+        </g>
+        <g filter="url(#k)" transform="translate(220 70)">
+            <use fill="#000" filter="url(#l)" xlink:href="#m"/>
+            <use fill="#1F5CAC" xlink:href="#m"/>
+            <path fill="#EBEBEB" d="M131 0h13v182h-13z"/>
+            <path fill="#FFF" d="M129 0h13v182h-13z"/>
+            <path fill="#317DE2" d="M0 0h140v24l6 4v23l-6 3v128H0z"/>
+            <text fill="#FFF" font-family="Nunito-ExtraBold, Nunito" font-size="14" font-weight="600">
+                <tspan x="14" y="29">Project </tspan> <tspan x="14" y="45.8">documentation</tspan>
+            </text>
+            <path fill="#FFF" d="M14 62h42v6H14zM14 73h27v6H14z" opacity=".5"/>
+        </g>
+    </g>
+</svg>

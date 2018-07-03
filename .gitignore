@@ -1,0 +1,27 @@
+# BACKEND
+composer.lock
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+vendor/
+.settings
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+sftp-config.json
+/vendor/
+/node_modules/
+/public/assets/
+npm-debug.log
+yarn-error.log
+.phpunit
+/phpunit.xml
+/.web-server-pid
+/.idea/*
+/.sass-cache/*
+/.DS_Store
+/public/datastore/

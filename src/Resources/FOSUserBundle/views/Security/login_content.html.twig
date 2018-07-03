@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Projecto - Login{% endblock %}
+
+{% block body %}
+    {{ parent() }}
+
+    <div class="signing">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h2>Log in and find projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="signing__modal">
+
+                        {% if error %}
+                            <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                        {% endif %}
+
+                        <form action="{{ path("fos_user_security_check") }}" method="post">
+
+                            <div class="input-wrapper">
+                                <input type="text" name="_username" value="{{ last_username }}" class="input-wrapper__field" required />
+                                <label class="label" for="_username">Your Email</label>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <input type="password" name="_password" class="input-wrapper__field" required />
+                                <label class="label" for="_password">Your password</label>
+                            </div>
+                            
+                            <div class="input-wrapper">
+                                <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
+                                <label for="remember_me">Remember Me</label>
+                            </div>
+
+                            <button type="submit" class="button button-blue login-button">Login</button>
+
+                        </form>
+
+                        <div class="row signing__modal__info">
+                            <div class="column">
+                                <span class="signing__modal__info__account black-text">Don't have an account? <a href="{{ path('fos_user_registration_register') }}">Sign Up</a></span>
+                            </div>
+                            <div class="column forgot-password">
+                                <a href="{{ path('fos_user_resetting_request') }}">Forgot password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="481" height="314" viewBox="0 0 481 314">
+    <defs>
+        <path id="b" d="M0 0h149v251H0z"/>
+        <filter id="a" width="135.6%" height="121.1%" x="-17.8%" y="-8.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <filter id="c" width="119.8%" height="123.1%" x="-9.9%" y="-9.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="d" width="148.2%" height="138.1%" x="-24.1%" y="-15.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="e" width="148.2%" height="138.1%" x="-24.1%" y="-15.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(16 11)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <path fill="#E2E2E2" d="M30 107h121v6H30z"/>
+        <path fill="#E0E1E2" d="M16 96h149v1H16zM16 147h149v1H16zM16 197h149v1H16z"/>
+        <g fill="#E2E2E2">
+            <path d="M30 208h28v6H30zM30 220h28v6H30zM30 232h13v6H30z"/>
+        </g>
+        <g fill="#E2E2E2">
+            <path d="M78 208h28v6H78zM78 220h28v6H78zM78 232h13v6H78z"/>
+        </g>
+        <g fill="#E2E2E2">
+            <path d="M123 208h28v6h-28zM123 220h28v6h-28zM123 232h13v6h-13z"/>
+        </g>
+        <path fill="#E2E2E2" d="M30 119h121v6H30zM30 131h97v6H30zM30 158h121v29H30z"/>
+        <path fill="#317DE2" d="M66 41V31H41v45h50V41H66zM51 71h-5v-5h5v5zm0-10h-5v-5h5v5zm0-10h-5v-5h5v5zm0-10h-5v-5h5v5zm10 30h-5v-5h5v5zm0-10h-5v-5h5v5zm0-10h-5v-5h5v5zm0-10h-5v-5h5v5zm25 30H66v-5h5v-5h-5v-5h5v-5h-5v-5h20v25zm-5-20h-5v5h5v-5zm0 10h-5v5h5v-5z"/>
+        <path fill="#E2E2E2" d="M107 41h42v6h-42zM107 53h42v6h-42zM107 65h22v6h-22z"/>
+        <g filter="url(#c)" transform="translate(126 65)">
+            <path fill="#317DE2" d="M29 47h210v138H29c-17-1-29-9-29-23V26c4.667 14 14.333 21 29 21z"/>
+            <g stroke="#FFF" opacity=".5">
+                <path stroke-width="2" d="M60 67v70h-9v28h106v-20h47v-23h21V77h-22V67H60z"/>
+                <path fill="#0894FF" d="M142.5 65.5v3h23v-3h-23zM223.5 87.5v23h3v-23h-3zM58.5 72.5v23h3v-23h-3zM164.5 143.5v3h32v-3h-32zM63.5 163.5v3h32v-3h-32zM116.5 163.5v3h32v-3h-32zM172.5 65.5v3h23v-3h-23z"/>
+                <path stroke-width="2" d="M97 67v33h38V67M135 67v33M61 120.5h5M78 120h11.281v-20H97M106 164v-47h51v33"/>
+            </g>
+            <path fill="#2762B0" d="M239 91v138c17-1 29-7 29-23V70c-4.667 14-14.333 21-29 21z"/>
+            <path fill="#317DE2" d="M239 185V47c17 1 29 9 29 23v136c-4.667-14-14.333-21-29-21z"/>
+            <path fill="#388DFC" d="M29 138V0C12 1 5 9 0 23v136c4.667-14 14.333-21 29-21z"/>
+        </g>
+        <g filter="url(#d)" transform="translate(355 11)">
+            <path fill="#EBEBEB" d="M0 9h81.698l19.223 19.26V139H0z"/>
+            <path fill="#F3F3F3" d="M4 5h81.698l19.223 19.26V135H4z"/>
+            <path fill="#FFF" d="M9 0h81.698l19.223 19.26V130H9z"/>
+            <path fill="#BFBFBF" d="M27 26h65v6H27zM27 44h65v6H27zM27 63h65v6H27zM27 81h27v6H27z"/>
+            <path fill="#F3F3F3" d="M91 0l19 19H91z"/>
+        </g>
+        <g filter="url(#e)" transform="translate(205 11)">
+            <path fill="#EBEBEB" d="M0 9h81.698l19.223 19.26V139H0z"/>
+            <path fill="#F3F3F3" d="M4 5h81.698l19.223 19.26V135H4z"/>
+            <path fill="#FFF" d="M9 0h81.698l19.223 19.26V130H9z"/>
+            <path fill="#BFBFBF" d="M27 26h23.5v6H27z"/>
+            <path fill="#E0E1E2" d="M27 38h65v1H27zM27 50h65v1H27z"/>
+            <g fill="#BFBFBF">
+                <path d="M27 43h15v3H27zM77 43h15v3H77zM48 43h9v3h-9z"/>
+            </g>
+            <g fill="#BFBFBF">
+                <path d="M27 55h15v3H27zM77 55h15v3H77zM48 55h9v3h-9z"/>
+            </g>
+            <path fill="#E0E1E2" d="M27 62h65v1H27z"/>
+            <g fill="#BFBFBF">
+                <path d="M27 67h15v3H27zM77 67h15v3H77zM48 67h9v3h-9z"/>
+            </g>
+            <path fill="#E0E1E2" d="M27 74h65v1H27z"/>
+            <g fill="#BFBFBF">
+                <path d="M27 79h15v3H27zM77 79h15v3H77zM48 79h9v3h-9z"/>
+            </g>
+            <path fill="#E0E1E2" d="M27 86h65v1H27z"/>
+            <g fill="#BFBFBF">
+                <path d="M27 91h15v3H27zM77 91h15v3H77zM48 91h9v3h-9z"/>
+            </g>
+            <path fill="#E0E1E2" d="M27 98h65v1H27z"/>
+            <path fill="#BFBFBF" d="M73 109h19v5H73z"/>
+            <path fill="#F3F3F3" d="M91 0l19 19H91z"/>
+        </g>
+    </g>
+</svg>

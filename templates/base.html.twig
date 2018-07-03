@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+            <title>{% block title %}Projecto Dev!{% endblock %}</title>
+            <meta charset="UTF-8">
+        {% endblock %}
+        
+        {% block stylesheets %}
+            <link href="https://fonts.googleapis.com/css?family=Nunito&amp;subset=latin-ext" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/app.css') }}">
+            <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.css') }}">
+        {% endblock %}
+    </head>
+    <body>
+        {% block navigation %}
+            <nav class="navigation">
+                <div class="container">
+                    <div class="navigation__inner">
+                        <div class="row">
+                            <div class="column">
+                                <a href="/"><span class="logo">PROJECTO</span></a>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    <div class="column nav">
+                                        <ul class="navigation__inner__list">
+                                            <li class="navigation__inner__list__item"><a href="/t/project-list.twig">Browse</a></li>
+                                            <li class="navigation__inner__list__item"><a href="#">How it works</a></li>
+                                            <li class="navigation__inner__list__item"><a href="#">About</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column navigation__inner__buttons">
+                                        <a href="/login" class="button button-light-grey">LOGIN</a>
+                                        <a href="/register" class="button button-blue">REGISTER</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        {% endblock %}
+
+        {% block body %}{% endblock %}
+
+        {% block footer %}
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="column footer__company">
+                            <span class="logo logo--alternative">PROJECTO</span>
+                            <span class="footer__company__desc">Connecting clients and contractors</span>
+                        </div>
+                        <div class="column footer__nav">
+                            <div class="row">
+                                <div class="column">
+                                    <h5 class="footer__nav__heading">BROWSE</h5>
+                                    <ul class="footer__nav__list">
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Projects</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Companies</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Materials</a></li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h5 class="footer__nav__heading">HOW IT WORKS</h5>
+                                    <ul class="footer__nav__list">
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">I’m a investor</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">I’m a contractor</a></li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h5 class="footer__nav__heading">ABOUT</h5>
+                                    <ul class="footer__nav__list">
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Who are we</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Privacy policy</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Terms of Service</a></li>
+                                        <li class="footer__nav__list__item"><a href="#" class="link-footer">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        {% endblock %}
+
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('assets/js/app.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
